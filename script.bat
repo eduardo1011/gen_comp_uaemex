@@ -14,6 +14,10 @@ curl "https://raw.githubusercontent.com/eduardo1011/gen_comp_uaemex/main/libstdc
 
 curl "https://raw.githubusercontent.com/eduardo1011/gen_comp_uaemex/main/pthreadGC2-w64.dll" -o pthreadGC2-w64.dll
 
+curl "https://raw.githubusercontent.com/eduardo1011/gen_comp_uaemex/main/mview.py" -o mview.py
+
+curl "https://raw.githubusercontent.com/eduardo1011/gen_comp_uaemex/main/ncbiblast.py" -o ncbiblast.py
+
 ECHO Programa: ncbi-blast-2.8.1+-win64.exe
 ECHO _________________________________________________________
 
