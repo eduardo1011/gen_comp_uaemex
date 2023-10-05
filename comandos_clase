@@ -1,0 +1,17 @@
+from Bio import SeqIO
+record = SeqIO.read("complete_genome.fna", "fasta")
+table = 11
+min_pro_len = 50
+x= 0
+
+for strand, nuc in [(+1, record.seq), (-1, record.seq.reverse_complement())]:
+     for frame in range(3):
+            length = 3 * ((len(record)-frame) // 3) #Multiple of three
+            for pro in nuc[frame:frame+length].translate(table).split("*"):
+                splitlocal = pro.find('M')
+                seq_final = pro[splitlocal:]
+                if len(seq_final) >= min_pro_len:
+                    print(seq_final, len(seq_final), strand)
+
+                    x = x+1
+print("Numero de ORFs:",x)
