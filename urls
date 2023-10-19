@@ -5,7 +5,7 @@ https://www.mdpi.com/2076-2607/11/7/1648
 
 # Descarga de un transcriptoma
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR442/003/SRR4420293/SRR4420293_1.fastq.gz
-
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR442/003/SRR4420293/SRR4420293_2.fastq.gz
 
 # descarga de FASTQC para ver calidad de secuencias
 https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.12.1.zip
