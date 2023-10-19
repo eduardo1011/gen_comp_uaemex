@@ -2,3 +2,6 @@ https://www.mdpi.com/2076-2607/10/11/2100
 
 
 https://www.mdpi.com/2076-2607/11/7/1648
+
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR442/003/SRR4420293/SRR4420293_1.fastq.gz
