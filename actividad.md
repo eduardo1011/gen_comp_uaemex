@@ -11,7 +11,7 @@
 >>> #### **Debido a la complejidad de la actividad pueden hacer equipos, no olviden poner sus nombres en el reporte.**
 >>> #### **Revisa la siguiente imagen para entender cómo debe ser el ambiente de trabajo (directorios) para que los comandos funcionen correctamente.**
 
-<img src="https://raw.githubusercontent.com/eduardo1011/gen_comp_uaemex/main/entorno.jpg" alt="alt text" title="image Title" width="95%"/>
+<img src="https://raw.githubusercontent.com/eduardo1011/gen_comp_uaemex/main/entorno2.jpg" alt="alt text" title="image Title" width="95%"/>
 
 ---
 ---
