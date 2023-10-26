@@ -3,7 +3,7 @@
 # <span style="color:red">Análisis transcriptómico de *Arabidopsis thaliana*</span>  
 
 
-### **<span style="color:blue">Esta actividad integra y aplica varios aspectos vistos en clase, por lo tanto, con ésta evaluaré el segundo parcial, tendrán como límite 2 semanas para entregarla, es decir, tienen hasta las 23:59 horas del 9 de noviembre. Lo que deben entregarme es el archivo `At_count.txt` que se genera en el último paso de la actividad. También deben hacer un reporte (me lo mandan en PDF) mostrando capturas de pantalla de las salidas obtenidas en todos los pasos (usando el comando `head`, `ls` o `less` según sea el caso), con esto validaré que tienen las salidas correctas. En el reporte, a cada imagen agreguen un pie de figura que describa brevemente lo que se obtiene.** </span>
+### **<span style="color:blue">Esta actividad integra y aplica varios aspectos vistos en clase, tendrán como límite 2 semanas para entregarla, es decir, tienen hasta las 23:59 horas del 9 de noviembre. Lo que deben entregarme es el archivo `At_count.txt` que se genera en el último paso de la actividad. También deben hacer un reporte (me lo mandan en PDF) mostrando capturas de pantalla de las salidas obtenidas en todos los pasos (usando el comando `head`, `ls` o `less` según sea el caso), con esto validaré que tienen las salidas correctas. En el reporte, a cada imagen agreguen un pie de figura que describa brevemente lo que se obtiene.** </span>
 
 ---
 >>> #### **Nota: La única forma de hacer la actividad es através del servidor.**  
