@@ -220,7 +220,7 @@ print('File with all accounts=', 'At_count.txt')
 print('\n')
 ```
 
-#### 17. Una vez instalados los módulos `numpy` y `pandas` y creado el script `get_counts.py` proceder a su ejecución
+#### 18. Una vez instalados los módulos `numpy` y `pandas` y creado el script `get_counts.py` proceder a su ejecución
 
 >>> Este programa toma automáticamente los archivos generados por el script `run_blastn.py`
 
@@ -228,7 +228,7 @@ print('\n')
 
 `python3 get_counts.py`
 
-#### 18. Exportar (con el comando `scp`) el archivo `At_count.txt` a tu ordenador local y abrirlo con `pandas` en una bitácora de `jupyter`
+#### 19. Exportar (con el comando `scp`) el archivo `At_count.txt` a tu ordenador local y abrirlo con `pandas` en una bitácora de `jupyter`
 
 >>> Del siguiente comando ustedes deben cambiar el nombre de su usuario, recuerden que esta transferencia no se hace con la terminal del servidor sino con una terminal nueva sin conexión al servidor.
 
