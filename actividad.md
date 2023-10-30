@@ -138,6 +138,8 @@ ejemplo:
 python3 run_blastn.py fastqs
 """
 
+import subprocess, sys, os
+
 folder =  sys.argv[1]
 files = [i for i in os.listdir(folder) if '.fasta' in i]
 
@@ -145,7 +147,7 @@ files = [i for i in os.listdir(folder) if '.fasta' in i]
 for h in files:
     f = folder+'/'+h
     print('Blastn =', f)
-    su = subprocess.call('./blastn -db db/ara -query '+f+' -evalue 0.00001 -outfmt "6 qacc sacc qlen slen length score bitscore evalue pident nident$
+    su = subprocess.call('./blastn -db db/ara -query '+f+' -evalue 0.00001 -outfmt "6 qacc sacc qlen slen length score bitscore evalue pident nident mismatch positive gaps gapopen stitle" -max_target_seqs 10 -max_hsps 10 -num_threads 8 -out '+h.split('.fasta')[0]+'_blastn.txt', shell = True)
 ```
 
 #### 15. Una vez creado el script `run_blastn.py` procedemos a ejecutarlo
@@ -186,7 +188,7 @@ print('\n')
 
 files = [i for i in os.listdir() if 'blastn.txt' in i]
 
-cols = ['qacc', 'sacc', 'qlen', 'slen', 'length', 'score', 'bitscore', 'evalue', 'pident', 'nident', 'mismatch', 'positive', 'gaps', 'gapopen', 'sti$
+cols = ['qacc', 'sacc', 'qlen', 'slen', 'length', 'score', 'bitscore', 'evalue', 'pident', 'nident', 'mismatch', 'positive', 'gaps', 'gapopen', 'stitle']
 
 frames = []
 for f in files:
